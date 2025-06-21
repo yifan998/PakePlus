@@ -1,0 +1,1 @@
+function n(i,r,e){r===""||r===void 0?e(new Error("手机号码不能为空")):/^1[3456789]\d{9}$/.test(r)?e():e(new Error("请输入正确格式的手机号"))}function t(i,r,e){r===""||r===void 0?e(new Error("内容为空")):e()}function o(i,r,e){/^[A-Za-z][A-Za-z0-9_]*$/.test(r)?e():e(new Error("只支持输入英文、数字、下划线，且首字母不能为数字、下划线"))}export{n as a,o as b,t as v};
