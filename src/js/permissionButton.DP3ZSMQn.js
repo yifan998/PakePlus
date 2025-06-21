@@ -1,0 +1,1 @@
+import{K as s,p as r}from"./index.DQ_NCsdP.js";function p(){const e=s.config.globalProperties,o=r([]);return{buttonList:o,getButtonList:n=>e.$getDataAxios.getButtons(n).then(t=>{o.value=t.data}).catch(t=>{e.$getDataAxios.notifyError(t)}),showButton:n=>o.value.some(t=>n===t.name)}}export{p};
